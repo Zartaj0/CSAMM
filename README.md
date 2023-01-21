@@ -1,4 +1,4 @@
-#Simple Constant Sum Automated Market Maker
+# Simple Constant Sum Automated Market Maker
 
 This is one of the types of different approaches for Automated Market Making in DeFi.
 
