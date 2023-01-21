@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+#Simple Constant Sum Automated Market Maker
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is one of the types of different approaches for Automated Market Making in DeFi.
 
-Try running some of the following tasks:
+This approach takes the sum of the two tokens in the liquidity pool and marks the sum as constant, which should never be changed.
+Whenever someone swaps or adds liquidity to the pool this constant should remain the same.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Inserting the condition of 1:1 ratio for both tokens, that means if you are swapping 100 token 'A' with token 'B' then the pool will give you 100 token 'B' to maintain the constant. 
